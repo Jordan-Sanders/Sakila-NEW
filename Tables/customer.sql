@@ -2,7 +2,7 @@
   `customer_id` SMALLINT UNSIGNED NOT NULL AUTO_INCREMENT,
   `store_id` TINYINT UNSIGNED NOT NULL,
   `first_name` VARCHAR(45) NOT NULL,
-  `last_name` VARCHAR(45) NOT NULL,
+  `last_name` VARCHAR(50) NOT NULL,
   `email` VARCHAR(50) DEFAULT NULL,
   `address_id` SMALLINT UNSIGNED NOT NULL,
   `active` TINYINT(1) NOT NULL DEFAULT 1,
