@@ -1,0 +1,9 @@
+﻿CREATE TABLE `country` (
+  `country_id` SMALLINT(5) UNSIGNED NOT NULL AUTO_INCREMENT,
+  `country` VARCHAR(50) NOT NULL,
+  `last_update` TIMESTAMP NOT NULL DEFAULT current_timestamp() ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (country_id)
+)
+ENGINE = INNODB,
+CHARACTER SET utf8mb4,
+COLLATE utf8mb4_unicode_ci;
